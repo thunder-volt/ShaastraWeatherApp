@@ -80,11 +80,8 @@ function App() {
               <div className="head">Day3</div>
               {Math.round(forecast.list[3].main.temp) - 273}°C
             </div>
-
           </div >
-
         </div>
-
       ) : ('')
       }
 
